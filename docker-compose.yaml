@@ -1,0 +1,7 @@
+version: '3'
+services: 
+  db:
+    image: postgres:10.5
+    environment: 
+      - POSTGRES_USER=developers
+      - POSTGRES_PASSWORD=developers
